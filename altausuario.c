@@ -15,14 +15,23 @@
 
 int main () {
 
-char nombre[20];
+char nombre[50];
 int edad;
-float altura;
+float altura;   
 
-    printf("Ingrese su nombre:");
+
+printf("Ingrese su nombre:\n");
+
 scanf("%s",nombre);
 
+printf ("Por favor, ingresar su edad:\n");
 
+scanf("%d",&edad);
+
+
+printf (" Un dato mas por favor, puedes escribir tu altura en metros, por favor :\n");
+
+scanf("%f", &altura);
 
 
 
